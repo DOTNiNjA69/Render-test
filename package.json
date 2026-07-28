@@ -7,13 +7,17 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node --watch index.js",
-      "build": "vite build"
+    "build": "vite build"
   },
   "dependencies": {
     "cors": "^2.8.6",
-    "express": "^5.2.1"
+    "express": "^5.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
   }
 }
-
